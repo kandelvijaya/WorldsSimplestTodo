@@ -1,7 +1,7 @@
 import Cocoa
 
 @NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate , RightButtonQuitMenu{
     
     let statusItem: NSStatusItem
     let popover: NSPopover
@@ -10,7 +10,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate {
     override init() {
         popover = NSPopover()
         popover.contentViewController = ContentViewController()
-        statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(24)
+        statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-1)
         
         super.init()
         setupStatusButton()
@@ -32,6 +32,8 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate {
             statusButton.superview!.subviews = [statusButton, dummyControl]
             dummyControl.action = "onPress:"
             dummyControl.target = self
+            dummyControl.delegate = self
+
         }
     }
     
@@ -64,4 +66,18 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate {
             popoverMonitor = nil
         }
     }
+    
+    
+    func rightButtonClicked() {
+        println("right button clicked")
+        //show menu bar
+        //options is quit
+        //when quit touched quit the app
+        
+        closePopover()
+        
+        
+        
+    }
+    
 }

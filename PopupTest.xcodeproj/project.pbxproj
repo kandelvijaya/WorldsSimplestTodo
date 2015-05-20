@@ -7,37 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8597FAA21B0B0BD60025FCCE /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8597FAA11B0B0BD60025FCCE /* StatusHighlighted@2x.png */; };
+		8597FAA41B0B0BDF0025FCCE /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8597FAA31B0B0BDF0025FCCE /* Status@2x.png */; };
 		B3A03A891AC7C44E00154AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A03A881AC7C44E00154AEB /* AppDelegate.swift */; };
 		B3A03A8B1AC7C44E00154AEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A03A8A1AC7C44E00154AEB /* Images.xcassets */; };
 		B3A03A8E1AC7C44E00154AEB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A03A8C1AC7C44E00154AEB /* MainMenu.xib */; };
-		B3A03A9A1AC7C44E00154AEB /* PopupTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A03A991AC7C44E00154AEB /* PopupTestTests.swift */; };
-		B3A03AA61AC8A1BD00154AEB /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A03AA41AC8A1BD00154AEB /* Status@2x.png */; };
-		B3A03AA71AC8A1BD00154AEB /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A03AA51AC8A1BD00154AEB /* StatusHighlighted@2x.png */; };
 		B3A03AA91AC8FFCE00154AEB /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A03AA81AC8FFCE00154AEB /* ContentViewController.swift */; };
 		B3C04A011ADB19C200D2CFE5 /* DummyControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C04A001ADB19C200D2CFE5 /* DummyControl.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B3A03A941AC7C44E00154AEB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B3A03A7B1AC7C44E00154AEB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B3A03A821AC7C44E00154AEB;
-			remoteInfo = PopupTest;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		8597FAA11B0B0BD60025FCCE /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StatusHighlighted@2x.png"; sourceTree = "<group>"; };
+		8597FAA31B0B0BDF0025FCCE /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Status@2x.png"; sourceTree = "<group>"; };
 		B3A03A831AC7C44E00154AEB /* PopupTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopupTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A03A871AC7C44E00154AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3A03A881AC7C44E00154AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3A03A8A1AC7C44E00154AEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B3A03A8D1AC7C44E00154AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		B3A03A931AC7C44E00154AEB /* PopupTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3A03A981AC7C44E00154AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3A03A991AC7C44E00154AEB /* PopupTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupTestTests.swift; sourceTree = "<group>"; };
-		B3A03AA41AC8A1BD00154AEB /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Status@2x.png"; sourceTree = "<group>"; };
-		B3A03AA51AC8A1BD00154AEB /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StatusHighlighted@2x.png"; sourceTree = "<group>"; };
 		B3A03AA81AC8FFCE00154AEB /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		B3C04A001ADB19C200D2CFE5 /* DummyControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,21 +36,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3A03A901AC7C44E00154AEB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		B3A03A7A1AC7C44E00154AEB = {
 			isa = PBXGroup;
 			children = (
-				B3A03A851AC7C44E00154AEB /* PopupTest */,
-				B3A03A961AC7C44E00154AEB /* PopupTestTests */,
+				B3A03A851AC7C44E00154AEB /* WorldsSimplestTODO */,
 				B3A03A841AC7C44E00154AEB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,18 +51,18 @@
 			isa = PBXGroup;
 			children = (
 				B3A03A831AC7C44E00154AEB /* PopupTest.app */,
-				B3A03A931AC7C44E00154AEB /* PopupTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B3A03A851AC7C44E00154AEB /* PopupTest */ = {
+		B3A03A851AC7C44E00154AEB /* WorldsSimplestTODO */ = {
 			isa = PBXGroup;
 			children = (
 				B3A03AAA1AC9000E00154AEB /* src */,
 				B3A03AA31AC8A1AC00154AEB /* img */,
 				B3A03A861AC7C44E00154AEB /* Supporting Files */,
 			);
+			name = WorldsSimplestTODO;
 			path = PopupTest;
 			sourceTree = "<group>";
 		};
@@ -97,29 +75,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B3A03A961AC7C44E00154AEB /* PopupTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				B3A03A991AC7C44E00154AEB /* PopupTestTests.swift */,
-				B3A03A971AC7C44E00154AEB /* Supporting Files */,
-			);
-			path = PopupTestTests;
-			sourceTree = "<group>";
-		};
-		B3A03A971AC7C44E00154AEB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B3A03A981AC7C44E00154AEB /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		B3A03AA31AC8A1AC00154AEB /* img */ = {
 			isa = PBXGroup;
 			children = (
 				B3A03A8A1AC7C44E00154AEB /* Images.xcassets */,
-				B3A03AA41AC8A1BD00154AEB /* Status@2x.png */,
-				B3A03AA51AC8A1BD00154AEB /* StatusHighlighted@2x.png */,
+				8597FAA31B0B0BDF0025FCCE /* Status@2x.png */,
+				8597FAA11B0B0BD60025FCCE /* StatusHighlighted@2x.png */,
 			);
 			name = img;
 			sourceTree = "<group>";
@@ -137,9 +98,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B3A03A821AC7C44E00154AEB /* PopupTest */ = {
+		B3A03A821AC7C44E00154AEB /* WorldsSimpleTODO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3A03A9D1AC7C44E00154AEB /* Build configuration list for PBXNativeTarget "PopupTest" */;
+			buildConfigurationList = B3A03A9D1AC7C44E00154AEB /* Build configuration list for PBXNativeTarget "WorldsSimpleTODO" */;
 			buildPhases = (
 				B3A03A7F1AC7C44E00154AEB /* Sources */,
 				B3A03A801AC7C44E00154AEB /* Frameworks */,
@@ -149,28 +110,10 @@
 			);
 			dependencies = (
 			);
-			name = PopupTest;
+			name = WorldsSimpleTODO;
 			productName = PopupTest;
 			productReference = B3A03A831AC7C44E00154AEB /* PopupTest.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B3A03A921AC7C44E00154AEB /* PopupTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B3A03AA01AC7C44E00154AEB /* Build configuration list for PBXNativeTarget "PopupTestTests" */;
-			buildPhases = (
-				B3A03A8F1AC7C44E00154AEB /* Sources */,
-				B3A03A901AC7C44E00154AEB /* Frameworks */,
-				B3A03A911AC7C44E00154AEB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B3A03A951AC7C44E00154AEB /* PBXTargetDependency */,
-			);
-			name = PopupTestTests;
-			productName = PopupTestTests;
-			productReference = B3A03A931AC7C44E00154AEB /* PopupTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -183,10 +126,7 @@
 				TargetAttributes = {
 					B3A03A821AC7C44E00154AEB = {
 						CreatedOnToolsVersion = 6.3;
-					};
-					B3A03A921AC7C44E00154AEB = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = B3A03A821AC7C44E00154AEB;
+						DevelopmentTeam = 46ETJSLJJM;
 					};
 				};
 			};
@@ -203,8 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B3A03A821AC7C44E00154AEB /* PopupTest */,
-				B3A03A921AC7C44E00154AEB /* PopupTestTests */,
+				B3A03A821AC7C44E00154AEB /* WorldsSimpleTODO */,
 			);
 		};
 /* End PBXProject section */
@@ -216,15 +155,8 @@
 			files = (
 				B3A03A8B1AC7C44E00154AEB /* Images.xcassets in Resources */,
 				B3A03A8E1AC7C44E00154AEB /* MainMenu.xib in Resources */,
-				B3A03AA71AC8A1BD00154AEB /* StatusHighlighted@2x.png in Resources */,
-				B3A03AA61AC8A1BD00154AEB /* Status@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3A03A911AC7C44E00154AEB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				8597FAA41B0B0BDF0025FCCE /* Status@2x.png in Resources */,
+				8597FAA21B0B0BD60025FCCE /* StatusHighlighted@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,23 +173,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3A03A8F1AC7C44E00154AEB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B3A03A9A1AC7C44E00154AEB /* PopupTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B3A03A951AC7C44E00154AEB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B3A03A821AC7C44E00154AEB /* PopupTest */;
-			targetProxy = B3A03A941AC7C44E00154AEB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B3A03A8C1AC7C44E00154AEB /* MainMenu.xib */ = {
@@ -373,42 +289,6 @@
 			};
 			name = Release;
 		};
-		B3A03AA11AC7C44E00154AEB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PopupTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopupTest.app/Contents/MacOS/PopupTest";
-			};
-			name = Debug;
-		};
-		B3A03AA21AC7C44E00154AEB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PopupTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopupTest.app/Contents/MacOS/PopupTest";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -421,20 +301,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3A03A9D1AC7C44E00154AEB /* Build configuration list for PBXNativeTarget "PopupTest" */ = {
+		B3A03A9D1AC7C44E00154AEB /* Build configuration list for PBXNativeTarget "WorldsSimpleTODO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3A03A9E1AC7C44E00154AEB /* Debug */,
 				B3A03A9F1AC7C44E00154AEB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B3A03AA01AC7C44E00154AEB /* Build configuration list for PBXNativeTarget "PopupTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B3A03AA11AC7C44E00154AEB /* Debug */,
-				B3A03AA21AC7C44E00154AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
